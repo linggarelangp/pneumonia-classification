@@ -1,0 +1,26 @@
+# ---- DATA ----
+/data/
+!/src/data/
+
+# ---- ENV ----
+/venv/
+/Env/
+.env
+
+# ---- PYTHON ----
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- NOTEBOOK ----
+.ipynb_checkpoints/
+
+# ---- MODEL ----
+*.h5
+*.keras
+*.pt
+*.pth
+
+# ---- OS ----
+.DS_Store
+Thumbs.db

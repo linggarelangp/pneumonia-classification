@@ -1,0 +1,14 @@
+paths:
+  raw_data: data/raw/chest_xray_raw
+  processed_data: data/processed/chest_xray_processed
+  dataset_csv_raw: data/splits/chest_xray_raw.csv
+  dataset_csv: data/splits/chest_xray_dataset.csv
+
+
+data:
+  labels: ["Normal", "Pneumonia"]
+  image_size: 224
+
+training:
+  batch_size: 32
+  epochs: 20
