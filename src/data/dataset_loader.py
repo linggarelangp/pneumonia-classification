@@ -33,7 +33,7 @@ def create_generators(
         preprocessing_function=tf.keras.applications.resnet50.preprocess_input
     )
 
-    print(f"[INFO] Membuat Generator dengan Batch Size: {batch_size}")
+    print(f"[INFO] Creating Generator with Batch Size: {batch_size}")
 
     train_generator = train_datagen.flow_from_dataframe(
         df_train,
